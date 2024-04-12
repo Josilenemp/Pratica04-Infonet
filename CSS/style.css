@@ -1,0 +1,207 @@
+/* Estilos para o corpo da página */
+body{ 
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes padrão */
+    background-color:white; /* Define a cor de fundo do corpo da página */
+}
+
+  /* Estilos para o elemento <code> */
+  code{
+    background-color: rgb(182, 182, 182); /* Define a cor de fundo */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    padding: 3px; /* Adiciona espacamento interno */
+    }
+
+  /* Estilos para texto forte */
+  strong { 
+    font-weight: bold; /* Define o peso da fonte como negrito */
+  }
+  
+  /* Estilo para links */
+  a  {
+    color: white;  /* Define a cor do texto dos links */
+    padding: 5px; /* Adiciona espacamento interno */
+  }
+  
+  /* Estilo para texto pequeno */
+  small {
+    font-size: smaller; /* Define um tamanho de fonte menor */
+  }
+  
+  /* Estilos para os textos em destacado */
+  mark {
+    background-color: yellow; /* Define a cor de fundo */
+    font-weight: bold; /* Define o peso da fonte sendo como negrito */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    padding: 3px; /* Adiciona espacamento interno */
+  }
+  /* Estilos para parágrafos */
+    p {
+      margin-bottom: 20px; /* Define a margem inferior */
+  }
+
+  /* Estilos para a classe "nome" */
+  .nome {
+    font-family: 'Times New Roman', Times, serif; /* Define uma família de fontes*/
+    font-weight: bold; /* Define o peso da fonte como negrito */
+  }
+   
+  /* Estilos para listas */
+  ul, ol,li {
+      padding-left: 20px; /* Define o recuo à esquerda */
+      line-height: 1.8; /* Define a altura da linha */
+ }
+
+ /* Estilos para a classe "importante" */
+.importante{
+  color: #0A0E33; /* Define a cor do texto */
+}
+
+/* Estilos para a classe "destacado" */
+.destacado{
+  background-color: yellow; /* Define a cor de fundo */
+  font-weight: bold; /* Define o peso da fonte como sendo negrito */
+  border-radius: 6px; /* Adiciona bordas arredondadas */
+  padding: 3px; /* Adiciona espacamento interno */
+  }
+   
+/* Estilos para texto sublinhado */
+.sublinhado{
+  text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* Estilos para texto excluído */
+.excluido{
+  text-decoration: line-through; /* Adiciona linha através do texto */
+  color: #999; /* Define a cor do texto */
+}
+
+/* Estilos para texto sobrescrito */
+.sobrescrito{
+  vertical-align: super; /* Define o texto como sobrescrito */
+}
+
+/* Estilos para texto subscrito */
+.subescrito{
+  vertical-align: sub; /* Define o texto como subscrito */
+}
+
+/* Estilos para texto menor */
+.texto-menor{
+  font-size: smaller; /* Define um tamanho de fonte menor */
+}
+
+/* Estilos para imagens */
+  img {
+    max-width: 100%; /* Define a largura máxima da imagem */
+    height: auto; /* Ajuste automaticamente da altura para manter a proporção original */
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #2e92f6; /* Define a cor de fundo */
+    padding-bottom: 0; /* Adiciona espaço extra no final para evitar que o conteúdo se sobreponha ao rodapé */
+    box-sizing: border-box; /* Faz com que altura calculada inclua espacamento da borda */
+  }
+  
+  /* Estilos para os cabeçalhos dentro do cabeçalho */
+  header h1{
+    color: white; /* Define a cor do texto */
+    text-align: center; /* Centraliza horizontalmente */
+    
+  }
+  /* Estilos para o parágrafo dentro do cabeçalho */
+  header p {
+    text-align: center; /* Centraliza horizontalmente */
+  }
+  
+  /* Estilos para texto forte dentro do cabeçalho */
+  header strong{
+    color: white; /* Define a cor do texto */
+  }
+  /* Estilos para links dentro do cabeçalho */
+  header a {
+    color: blue; /* Define a cor do texto */
+  }
+
+/* Estilos para a classe "josilene" */
+.josilene{
+ font-weight: bold /* Define o peso da fonte como negrito */
+  }
+
+/* Esta clase define estilos para texto enfatizado */
+.enfase {
+  font-style: italic; /* Define o estilo da fonte como itálico */
+}
+/* Estilos para tabelas */
+  table {
+    width: 100%; /* Define a largura da tabela como */
+    border-collapse: collapse; /* Remove a separação entre as celulas que foram selecinadas */
+}
+
+/* Esta classe define o estilo para o título */
+.titulo{
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 10px; /* Adiciona margem inferior */
+    
+}
+
+/* Esta classe define o estilo para o contêiner */
+.container {
+  margin: 0 auto; /* Centralizar a tabela */
+  max-width: 1000px; /* Ajuste a largura máxima conforme necessário */
+}
+
+/* Estilos para os títulos de coluna e células da tabela */
+th, td {
+    padding: 10px; /* Define o espacamento interno */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    border: 1px solid blue /* Define uma borda */
+    ;
+}
+
+/* Estilos para os títulos de coluna da tabela */
+th {
+    color: black; /* Define a cor do texto */
+    background-color: yellow; /* Define a cor de fundo */
+    font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Estilos para células da tabela */
+td {
+  text-align: center; /* Alinha o texto no centro */
+}
+
+/* Estilos para células da tabela com a classe "hora" e "intervalo" */
+.hora {
+    background-color: yellow; /* Cor de fundo para horários */
+    color: black; /* Define a cor do texto */
+}
+/* Define a cor de fundo para o elemento classe no intevalo*/
+.intervalo {
+    background-color: yellow; /* Cor de fundo para intervalos */
+}
+
+/* Estilos para células da tabela com a classe "hora" e "intervalo" */
+.hora, .intervalo{
+    color: black;  /* Define a cor de fundo */
+    font-weight: bold; /* Destaque de fonte para horarios e intervalos */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #2e92f6; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    padding: auto; /* Adiciona espacamento */
+    margin-top: 0; /* Remover a margem superior */
+}
+
+/* Estilos para o cabeçalho do rodapé */
+footer h2{
+    color: white; /* Define a cor do texto */
+}
+
+/* Estilos para parágrafos no rodapé */
+footer p {
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
